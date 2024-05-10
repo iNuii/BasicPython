@@ -9,7 +9,7 @@ height = float(height) / 100
 
 bmi = float(weight) / height ** 2
 
-if bmi < 18.0 :
+if bmi>=0 and bmi < 18.0 :
     result = "You're underweight, contact GP!"
 elif bmi >= 18.5 and bmi <= 22.9 :
     result = "You're good, keep doing!"
